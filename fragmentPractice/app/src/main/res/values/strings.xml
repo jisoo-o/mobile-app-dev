@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">Jisoo Park 20186668</string>
     <string name="message">Message</string>
-    <string name="send">Send</string>
+    <string name="sendText">Send Text</string>
+    <string name="returnText">Return Text</string>
+    <string name="textFrom2">text from activity 2</string>
+    <string name="textFrom1">text from activity 1</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="second_frag">Fragment two</string>
 </resources>
