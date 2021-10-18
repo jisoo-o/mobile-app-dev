@@ -6,6 +6,7 @@ import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import com.example.jisoopark20186668.databinding.ActivityMainBinding;
@@ -47,6 +48,11 @@ public class MainActivity extends AppCompatActivity {
         //startActivity(intent);
         resultLauncher.launch(intent);
 
+    }
+
+    public void showWebPage(View view){
+        Intent intentWeb = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.co.kr"));
+        startActivity(intentWeb);
     }
 
 
