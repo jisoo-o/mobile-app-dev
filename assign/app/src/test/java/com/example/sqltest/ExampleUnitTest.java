@@ -1,4 +1,4 @@
-package com.example.jisoopark20186668;
+package com.example.sqltest;
 
 import org.junit.Test;
 
